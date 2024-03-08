@@ -31,13 +31,17 @@ header {
     display: inline-block;
     margin-left: 25px;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
   .photo {
-    height: 160px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/header.jpeg");
+    background-image: url("../assets/water.jpeg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     text-align: end;
     color: #fff;
 }
