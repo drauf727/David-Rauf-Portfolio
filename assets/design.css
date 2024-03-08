@@ -1,3 +1,10 @@
 body {
     color: pink
 }
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
