@@ -3,8 +3,18 @@ body {
 }
 
 header {
-    padding: 60px;
-    text-align: center;
     background: #13293d;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+  }
+
+  .name {
+    text-align: left;
+  }
+
+  .links {
+    text-align: right;
   }
