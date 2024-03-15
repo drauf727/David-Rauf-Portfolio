@@ -37,10 +37,10 @@ header {
     text-decoration: none;
 }
   .photo {
-    height: 250px;
+    height: 350px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/water.jpeg");
+    background-image: url("../assets/sunset-ocean-header.webp");
     background-size: cover;
     background-position: center;
     text-align: end;
