@@ -12,10 +12,6 @@ header {
     padding: 1%;
   }
 
-  .name {
-    text-align: left;
-  }
-
   .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -52,22 +48,31 @@ a {
   justify-self: center;
  }
 
- .h2 {
-  width: 40%;
+ .link {
+  width 15%;
+  justify-content: center;
+ }
+
+ .container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 35% 65%;
+ }
+
+ .item-1{
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  justify-items: center;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
-
  }
 
- .description {
+ .item-2{
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
   width: 60%;
   text-align: justify;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
- }
-
- .link {
-  width 15%;
-  justify-content: center;
  }
