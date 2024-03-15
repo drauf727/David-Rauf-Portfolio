@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: aqua;
   color: navy
@@ -45,10 +49,16 @@ header {
 
  .container {
   display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
-  grid-template-columns: 35% 65%;
+  grid-template-rows: 35% 50% 15%;
+  grid-template-columns: 30% 70%;
   align-items: center;
   padding-top: 50px
+ }
+
+ .container a{
+ display: block;
+ width:100%;
+ height:250px;
  }
 
  .item-1{
@@ -70,6 +80,22 @@ header {
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+ }
+
+ .work{
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
+  width: 60%;
+  justify-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  padding-left: 50px;
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: end;
  }
 
  .contact{
@@ -82,3 +108,54 @@ header {
   justify-content: space-evenly;
   display: flex;
  }
+ .Horiseon {
+  height: 250px;
+  width: 100%;
+  background-image: url("../assets/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: end;
+  color: #fff;
+}
+.Tripadvisor {
+  height: 250px;
+  width: 50%;
+  background-image: url("../assets/TripAdvisor-Logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: end;
+  color: #fff;
+}
+.Google {
+  height: 250px;
+  width: 50%;
+  background-image: url("../assets/google2.0.0.1441125613.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: end;
+  color: #fff;
+}
+.Facebook {
+  height: 250px;
+  width: 50%;
+  background-image: url("../assets/images.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: end;
+  color: #fff;
+  object-fit: scale-down;
+}
+.Twitter {
+  height: 250px;
+  width: 50%;
+  background-image: url("../assets/8f4940ab2b110be46a20fe7efd88e9826c801ce7-3840x2160.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: end;
+  color: #fff;
+}
