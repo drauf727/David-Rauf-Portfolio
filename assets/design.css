@@ -59,6 +59,7 @@ header {
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
   padding-right: 50px;
+  border-right: solid;
  }
 
  .item-2{
@@ -68,6 +69,7 @@ header {
   justify-items: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
+  padding-left: 50px;
  }
 
  .contact{
