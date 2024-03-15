@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  background-color: aqua;
+  background-color: rgb(231, 231, 231);
   color: navy
 }
 
@@ -62,20 +62,22 @@ header {
  }
 
  .item-1{
-  grid-row: 1 / 1;
-  grid-column: 1 / 1;
+  /* grid-row: 1 / 1;
+  grid-column: 1 / 1; */
   justify-items: center;
   text-align: end;
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
   padding-right: 50px;
   border-right: solid;
+  display: flexbox;
+  -ms-flex-align: end;
  }
 
  .item-2{
-  grid-row: 1 / 1;
-  grid-column: 2 / 2;
-  width: 60%;
+  /* grid-row: 1 / 1;
+  grid-column: 2 / 2; */
+  width: 70%;
   justify-items: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
@@ -85,9 +87,9 @@ header {
  }
 
  .work{
-  grid-row: 1 / 1;
-  grid-column: 2 / 2;
-  width: 60%;
+  /* grid-row: 1 / 1;
+  grid-column: 2 / 2; */
+  width: 70%;
   justify-items: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
@@ -99,14 +101,17 @@ header {
  }
 
  .contact{
-  grid-row: 1 / 1;
-  grid-column: 2 / 2;
-  width: 60%;
-  justify-items: center;
+  /* grid-row: 1 / 1;
+  grid-column: 2 / 2; */
+  padding-left: 50px;
+  width: 70%;
+  height: 80%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  vertical-align: middle;
   display: flex;
+  flex-wrap: nowrap
  }
  .Horiseon {
   height: 250px;
@@ -122,7 +127,7 @@ header {
   height: 250px;
   width: 50%;
   background-image: url("../assets/TripAdvisor-Logo.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   text-align: end;
@@ -158,4 +163,14 @@ header {
   background-position: center;
   text-align: end;
   color: #fff;
+}
+button{
+  background-color: navy;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
 }
