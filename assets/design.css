@@ -40,7 +40,7 @@ header {
     height: 350px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/sunset-ocean-header.webp");
+    background-image: url("../assets/logo-color.png");
     background-size: cover;
     background-position: center;
     text-align: end;
@@ -101,52 +101,50 @@ header {
  }
 
  .contact{
-  /* grid-row: 1 / 1;
-  grid-column: 2 / 2; */
   padding-left: 50px;
   width: 70%;
   height: 80%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
-  justify-content: space-around;
   vertical-align: middle;
   display: flex;
-  flex-wrap: nowrap
+  flex-wrap: nowrap;
+  align-content: center;
  }
- .Horiseon {
+ .JourneysEnd {
   height: 250px;
   width: 100%;
-  background-image: url("../assets/digital-marketing-meeting.jpg");
+  background-image: url("../assets/JourneysEnd.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: end;
   color: #fff;
 }
-.Tripadvisor {
+.WeatherApp {
   height: 250px;
   width: 50%;
-  background-image: url("../assets/TripAdvisor-Logo.png");
+  background-image: url("../assets/Screenshot\ 2024-04-19\ 165002.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   text-align: end;
   color: #fff;
 }
-.Google {
+.DailyMotivation {
   height: 250px;
   width: 50%;
-  background-image: url("../assets/google2.0.0.1441125613.jpg");
+  background-image: url("../assets/DailyMotivation.PNG");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   text-align: end;
   color: #fff;
 }
-.Facebook {
+.LetsBlog {
   height: 250px;
   width: 50%;
-  background-image: url("../assets/images.jpg");
+  background-image: url("../assets/image.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -154,10 +152,10 @@ header {
   color: #fff;
   object-fit: scale-down;
 }
-.Twitter {
+.Payroll {
   height: 250px;
   width: 50%;
-  background-image: url("../assets/8f4940ab2b110be46a20fe7efd88e9826c801ce7-3840x2160.png");
+  background-image: url("../assets/Payroll.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
